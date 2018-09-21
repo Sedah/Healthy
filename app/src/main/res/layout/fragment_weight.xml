@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <Button
+            android:id="@+id/weight_add_weightbnt"
+            android:layout_width="125dp"
+            android:layout_height="41dp"
+            android:text="@string/add_weight" />
+
+        <ListView
+            android:id="@+id/weight_listview"
+            android:layout_width="match_parent"
+            android:layout_height="398dp"></ListView>
+
+        <Button
+            android:id="@+id/weight_back_btn"
+            android:layout_width="115dp"
+            android:layout_height="41dp"
+            android:text="@string/back" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ScrollView>
+</LinearLayout>
